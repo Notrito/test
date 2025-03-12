@@ -1,0 +1,22 @@
+virtualenv ~/.venv
+source ~/.venv/bin/activate
+
+para que cada termimnal tenga el venv activado:
+vim ~/.bashrc
+
+(copypaste at the end of the file,(shift + G) before -- INSERT --)
+#source virtual environement
+source ~/.venv/bin/activate
+
+
+touch Makefile
+touch requirements.txt
+touch hello.py
+touch test_hello_py
+
+#ipython for typing code into the terminal like a jupyternb
+ipython
+
+# to see the versions for requirements:
+
+pip freeze | less
